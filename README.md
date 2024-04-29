@@ -1,1 +1,9 @@
-# textract-receipt-app est une application web développée avec ReactJs, ExpressJs, NodeJs qui permet de charger un reçu scanné, d'extraitre les informations grace au service textract d'aws, les stocker sur une table de base de données dynamoDB sur aws et d'afficher la liste de la table.
+# textract-receipt-app
+est une application web qui permet d’extraire les informations sur un reçu scanné et d’afficher la liste des enrégistrements.
+Les technologies utilisées :
+  - React, Vite,TypeScript: Pour le frontend
+  - Bootstrap : pour styliser
+  - Express : Pour le backend
+  - Textract : Pour l’extractration des données
+  - DynamoDB sur AWS: Comme base de données
+  - Visual Studio Code : comme IDE
